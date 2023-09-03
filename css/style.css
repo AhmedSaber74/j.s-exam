@@ -1,0 +1,60 @@
+body{
+    background-color: #0D0D0D;
+    color: #faf7f7 !important;
+    overflow: hidden;
+}
+
+.nav-tab{
+    background-color: #0D0D0D;
+}
+
+.yummy{
+    width: 50px;
+    cursor: pointer;
+
+}
+
+i{
+    cursor: pointer;
+}
+
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(246, 241, 241, 0.5);
+    top: 100%;
+    transition: 0.7s;
+}
+
+.meal:hover .meal-layer{
+    top: 0;
+}
+
+.side-nav-menu{
+    z-index: 999;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.alert{
+    width: fit-content;
+}
+
+.loading-screen{
+    z-index: 999999;
+    display: flex;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
+
+.nav-footer .icons i
+{
+    padding: 10px;
+}
